@@ -1,0 +1,8 @@
+@layer components {
+  .grey-circle {
+    @apply transition min-w-[8px] min-h-[8px] bg-gray-300 rounded-full hover:hover:scale-125 hover:bg-blue-500;
+  }
+  .grey-line {
+    @apply w-full bg-gray-300 h-[1px];
+  }
+}
